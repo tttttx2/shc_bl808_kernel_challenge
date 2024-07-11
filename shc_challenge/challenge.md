@@ -6,7 +6,7 @@
 
 
 # Challenge Description
-This is a very secure kernel level HSM implementation. Once you connect to UART (use the higher port number of both), press the reset button and you'll see the system boot up.
+This is a very secure kernel level HSM implementation. Once you connect to UART (use the lower port number of both for shell, higher for programming), press the reset button and you'll see the system boot up.
 You'll be dropped in the terminal of the HSM directly. Enter the correct pin code, and you'll get the flag.
 
 This device has been hardened, so no, you don't have direct access to the passwordless busybox root shell anymore, too bad...
