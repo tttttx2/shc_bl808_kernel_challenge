@@ -32,8 +32,12 @@ curl https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource//1663142514282/X
 ```
 
 ## Compile
+Patch the UART connection first
+```bash
+switch_back_from_m1sdock.sh
+```
 
-Step by step
+Then either Step by step
 
 ```bash
 ./build.sh --help
@@ -84,4 +88,4 @@ Then find the firmwares under out
 
 ## Boot BL808 board
 
-Press and release RESET button, E907 will output log by IO14(TX)/IO15(RX) and C906 by IO5(RX)/IO8(TX)
+Press and release RESET button, E907 will output log by IO14(TX)/IO15(RX) and C906 by IO16(RX)/IO17(TX) 

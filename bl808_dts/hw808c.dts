@@ -72,6 +72,15 @@
 			status = "okay";
 		};
 
+		serial@0x2000AA00 {
+			compatible = "bflb,bl808-uart";
+			reg = <0x2000aa00 0x100>;
+			interrupts-extended = <0x03 0x00 0x01 0x01>;
+			mboxes = <0x03 0x00 0x01>;
+			clocks = <0x04>;
+			status = "okay";
+			phandle = <0x0b>;
+		};
 		xip_flash@58500000 {
 				compatible = "mtd-rom";
 				reg = <0x0 0x58500000 0x0 0x400000>;
