@@ -1,3 +1,9 @@
+# What is this?
+- This was a Hardware challenge for [Swiss-Hacking-Challenge.ch](https://swiss-hacking-challenge.ch/) contestants.
+- If you still have the distributed board from back then, maybe it'll help to reuse it for something else now.
+
+
+
 # bl808_linux
 
 bl808 Linux
